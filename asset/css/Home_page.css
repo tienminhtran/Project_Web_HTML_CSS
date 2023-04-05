@@ -72,7 +72,7 @@
     #content {
         background: #DEE1E6FF;
         width: 1440px;
-        height: 880px;
+        height: 1020px;
     }
     
     .content_title {
@@ -87,6 +87,8 @@
         font-size: 56px;
         line-height: 78px;
         color: #8510D8FF;
+        display: inline-block;
+        padding-top: 96px;
         /* background: rgb(75, 139, 41); */
         /* padding-left: 194px; */
         /* tertiary1-500 */
@@ -99,6 +101,8 @@
         font-size: 56px;
         line-height: 78px;
         color: #00BBAAFF;
+        display: inline-block;
+        padding-top: 96px;
         /* background: rgb(18, 89, 212); */
         /* primary-500 */
     }
