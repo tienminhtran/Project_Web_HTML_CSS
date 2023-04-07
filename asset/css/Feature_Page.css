@@ -293,7 +293,7 @@
             background: #FFFFFFFF;
             /* white */
             opacity: 1;
-            border: 4px solid rebeccapurple;
+            /* border: 4px solid rebeccapurple; */
             border-radius: 4px;
             /* border-m */
             /* padding-top: 57px; */
@@ -459,6 +459,17 @@
             margin-left: 20px;
         }
         
-        .footer_bottom .img-footer img {
-            padding-right: 20px;
+        .text-der {
+            margin-right: -0.5px;
         }
+        
+        .img-footer {
+            margin-right: -5px;
+        }
+        
+        .img-footer>img {
+            padding-left: 14px;
+        }
+        /* .footer_bottom .img-footer img {
+            padding-right: 20px;
+        } */
