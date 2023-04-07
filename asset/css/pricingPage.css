@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#web {
+    width: 1440px;
+    /* margin: 0 auto; */
+}
+
+header {
+    width: 1440px;
+    height: 64px;
+    background-color: black;
+    border-radius: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    position: absolute;
+    top: 32px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    /* line-height: 64px; */
+    font-size: 14px;
+    font-family: Roboto;
+    color: #565E6CFF;
+    padding: 0 16px;
+}
+
+.nav .nav_icon-down {
+    font-size: 10px;
+    padding-left: 15px;
+}
+
+.nav li:hover a {
+    display: inline-block;
+    color: #00BBAAFF;
+    font-weight: 600;
+
+}
+
+.user_account li {
+    float: right;
+   display: inline-block;
+}
+
+.user_account li button {
+    float: right;
+    margin-top: 12px;
+    line-height: 36px;
+    width: 80px;
+    background-color: black;
+    border: none;
+    color: #00BBAAFF;
+}
+
+.user_account li:hover button {
+    background-color: #00BBAAFF;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#content {
+    width: 1440px;
+    background-color: #DEE1E6;
+
+}
+
+#content .conent_banner {
+    width: 1175px;
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.conent_banner .title-support {
+    text-align: center;
+    padding: 96px 0 5px;
+    font-size: 48px;
+    line-height: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323842;
+}
+
+.conent_banner .derc-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #565E6CFF;
+    font-size: 18px;
+}
+
+.conent_banner .bt_times{
+    text-align: center;
+    padding: 30px 0 32px;
+}
+
+.bt_times button{
+    font-size: 18px;
+    color: #00BBAAFF;
+    padding: 15px 48px;
+}
+
+.bt_times button:nth-child(1){
+    background-color: #00BBAAFF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.bt_times button:nth-child(2){
+    background-color: #DEE1E6;
+    color: #00BBAAFF;
+    border: none;
+    border-radius: 25px;
+}
