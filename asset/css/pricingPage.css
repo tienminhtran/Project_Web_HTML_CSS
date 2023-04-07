@@ -125,3 +125,192 @@ header {
     border: none;
     border-radius: 25px;
 }
+
+.bt_times button:hover:nth-child(2){
+    background-color: #00BBAAFF;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+
+#content .product_pricing {
+    width: 1060px;
+    margin: auto;
+    display: flex;
+
+}
+
+.product_pricing .product-item {
+    width: 313px;
+    margin-top: 40px;
+    margin-right: 20px;
+
+}
+
+.product-item .color-head{
+    background-color: #1673FF;
+    width: 100%;
+    height: 14px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.product-content{
+    background-color: #1F232A;
+    width: 100%;
+    padding: 0 25px 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ .produc-title{
+    padding-top: 45px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ .produc-text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9095A0FF;
+    padding-bottom: 25px;
+}
+
+ .product-price{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.product-price .dola{
+    padding-right: 5px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-price .month{
+    color: #9095A0FF;
+    font-size: 14px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .pricing-check{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.pricing-check .check-tick{
+    padding: 4px;
+    background-color: #1673FF;
+    color: #1F232A;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.pricing-check .check-derc{
+    padding-left: 10px;
+    color: #9095A0FF;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.pricing-check .check-info{
+    padding: 4px;
+    background-color: #9095A0FF;
+    color: #1F232A;
+    font-size: 12px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+
+.pricing-check .check-close{
+    display: block;
+    font-weight: 600;
+    padding: 4px;
+    color: #9095A0FF;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+ .pricing-btn {
+    margin-top: 25px;
+    padding: 12px 103px;
+    background-color: #1F232A;
+    color: #9095A0FF;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #9095A0FF;
+    border-radius: 5px;
+}
+
+.product_pricing .product-item-main {
+    width: 389px;
+    margin-right: 20px;
+}
+
+.product-item-main .color-head-main{
+    background-color: #00BBAAFF;
+    width: 100%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.produc-title-main {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-item-main .pricing-check .check-tick{
+    padding: 4px;
+    background-color: #00BBAAFF;
+    color: #1F232A;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.product-item-main .pricing-check .check-derc{
+    padding-left: 10px;
+    color: #9095A0FF;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.product-item-main .pricing-check .check-info{
+    padding: 4px;
+    background-color: #9095A0FF;
+    color: #1F232A;
+    font-size: 12px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.product-item-main .pricing-btn {
+    margin-top: 40px;
+    padding: 12px 140px;
+    background-color: #00BBAAFF;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
