@@ -181,13 +181,13 @@
         }
         
         .container_img {
-            margin-top: 152px;
-            margin-left: 115px;
             position: absolute;
         }
         
         .nav_img {
             display: flex;
+            margin-top: 152px;
+            margin-left: 115px;
             /* background-color: #fff; */
         }
         
