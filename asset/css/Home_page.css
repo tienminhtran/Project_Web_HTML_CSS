@@ -719,7 +719,18 @@
         .text-der ul li {
             margin-left: 20px;
         }
-        
-        .footer_bottom .img-footer img {
+        /* .footer_bottom .img-footer img {
             padding-right: 20px;
+        } */
+        
+        .text-der {
+            margin-right: -0.5px;
+        }
+        
+        .img-footer {
+            margin-right: -5px;
+        }
+        
+        .img-footer>img {
+            padding-left: 14px;
         }
