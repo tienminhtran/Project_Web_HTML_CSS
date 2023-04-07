@@ -14,10 +14,10 @@
     height: 64px;
     background-color: black;
     border-radius: 4px;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
     z-index: 1;
 }
 
@@ -84,6 +84,7 @@
 #content .conent_banner {
     width: 1175px;
     margin: auto;
+    padding-top: 64px;
     padding-bottom: 96px;
 }
 
