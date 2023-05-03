@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="./asset/font/icon-fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./asset/css/productPage.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <script src="./asset/js/jquery-3.6.4.min.js"></script>
+    <script src="./asset/js/bootstrap.min.js"></script>
+    
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
     <title>Product Support</title>
 </head>
 <body>
@@ -20,8 +30,8 @@
             </ul>
 
             <ul class="user_account">
-                <li><button>Sign up</button></li>
-                <li><button>Sign in</button></li>
+                <li><button data-target="#frmdk" data-toggle="modal">Sign up</button></li>
+                <li><button data-target="#frmkdn" data-toggle="modal">Sign in</button></li>
             </ul>
         </div>
 
@@ -266,5 +276,81 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal" id="frmdk" style="width: 760px; height: 665px; background-color: lightgray;">
+        <div class="modal-header ">
+            <h1 class="">Đăng ký</h1>
+            <button data-dismiss="modal" class="close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Họ tên</label>
+                    <input type="text" id="txtht" class="form-control">
+                    <p id="erht">(*)</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email đăng nhập</label>
+                    <input type="email" id="txtemail" class="form-control">
+                    <p id="erem">(*)</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Mat khau</label>
+                    <input type="text" id="psmk" class="form-control">
+                    <p id="erps">(*)</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Ngày sinh</label>
+                    <input type="date" id="txtngay" class="form-control" placeholder="dd/mm/yyyy">
+                    <p id="erng">(*)</p>
+                </div>
+                <div class="row form-group">
+                    <label for="" class="col-2">Giới tính</label>
+                    <div class="col-10">
+                        <input type="radio" class="form-check-inline" name="gt" value="Nam">Nam
+                        <input type="radio" class="form-check-inline" name="gt" value="Nu">Nu
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn" id="btn" type="button">Sign up</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="frmkdn" style="width: 760px; height: 400px; background-color: lightgray;">
+        <div class="modal-header">
+            <h1>Đăng nhập</h1>
+            <button data-dismiss="modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+            <form action="">
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="">Email đăng nhập</label>
+                        <input type="email" id="txtemail1" class="form-control">
+                        <p id="erem1">(*)</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Mat khau</label>
+                        <input type="text" id="psmk1" class="form-control">
+                        <p id="erps1">(*)</p>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn" id="btn" type="button">Sign in</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./asset/js/main.js"></script>
 </body>
 </html>
