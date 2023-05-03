@@ -4,6 +4,8 @@ $(document).ready(function () {
         let ht = $('#txtht').val();
         let ctht= /^[A-za-z]+$/;
         if(ctht.test(ht)) {
+            $('#erht').html("(*)");
+            $('#erht').addClass('error');
             return true;
         } else {
 
@@ -17,6 +19,8 @@ $(document).ready(function () {
         let email = $('#txtemail').val();
         let ctemail= /^[^\s]+@[^\s]+$/;
         if(ctemail.test(email)) {
+            $('#erem').html("(*)");
+            $('#erem').addClass('error');
             return true;
         } else {
 
@@ -29,6 +33,8 @@ $(document).ready(function () {
         let email = $('#txtemail1').val();
         let ctemail= /^[^\s]+@[^\s]+$/;
         if(ctemail.test(email)) {
+            $('#erem1').html("(*)");
+            $('#erem1').addClass('error');
             return true;
         } else {
 
@@ -43,6 +49,8 @@ $(document).ready(function () {
         let ctPs = /^.{6,}./;
 
         if(ctPs.test(ps)) {
+            $('#erps').html("(*)");
+            $('#erps').addClass('error');
             return true;
         } else {
             $('#erps').html("(*)hon 6 ky tu");
@@ -56,6 +64,8 @@ $(document).ready(function () {
         let ctPs = /^.{6,}./;
 
         if(ctPs.test(ps)) {
+            $('#erps1').html("(*)");
+            $('#erps1').addClass('error');
             return true;
         } else {
             $('#erps1').html("(*)hon 6 ky tu");
@@ -70,6 +80,8 @@ $(document).ready(function () {
         let checkngay = new Date(ngay);
 
         if(checkngay > today) {
+            $('#erng').html("(*)");
+            $('#erng').addClass('error');
             return true;
         } else {
             $('#erng').html("(*)sau ngay hien tai");
