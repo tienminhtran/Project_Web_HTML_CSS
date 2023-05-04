@@ -1,471 +1,684 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/font/icon-fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="./asset/css/pricingPage.css">
-    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./asset/font/icon-fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./asset/font/themify-icons/themify-icons.css"
+    />
+    <link rel="stylesheet" href="./asset/css/pricingPage.css" />
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css" />
     <script src="./asset/js/jquery-3.6.4.min.js"></script>
     <script src="./asset/js/bootstrap.min.js"></script>
     <style>
-        .error {
-            color: red;
-            font-size: 12px;
-        }
+      .error {
+        color: red;
+        font-size: 12px;
+      }
     </style>
     <title>Pricing</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="web">
-        <header>
-            <ul class="nav">
-                <li><a href="./Home_page.html">Home</a></li>
-                <li><a href="./Feature_Page.html">Features <i class="nav_icon-down ti-angle-down"></i></a></li>
-                <li><a href="./PricingPage.html">Pricing</a></li>
-                <li><a href="./ProductPage.html">Support</a></li>
-            </ul>
+      <header>
+        <ul class="nav">
+          <li><a href="./Home_page.html">Home</a></li>
+          <li>
+            <a href="./Feature_Page.html"
+              >Features <i class="nav_icon-down ti-angle-down"></i
+            ></a>
+          </li>
+          <li><a href="./PricingPage.html">Pricing</a></li>
+          <li><a href="./ProductPage.html">Support</a></li>
+        </ul>
 
-            <ul class="user_account">
-                <li><button data-target="#frmdk" data-toggle="modal">Sign up</button></li>
-                <li><button data-target="#frmkdn" data-toggle="modal">Sign in</button></li>
-            </ul>
-        </header>
+        <ul class="user_account">
+          <li>
+            <button data-target="#frmdk" data-toggle="modal">Sign up</button>
+          </li>
+          <li>
+            <button data-target="#frmkdn" data-toggle="modal">Sign in</button>
+          </li>
+        </ul>
+      </header>
 
-        <div id="content">
-            <div class="conent_banner">
-                <h1 class="title">Pricing</h1>
-                <p class="derc-title">Officia exercitation quis voluptate elit consequat nostrud</p>
-                <div class="bt_times">
-                    <button>Monthly</button>
-                    <button>Yearly</button>
+      <div id="content">
+        <div class="conent_banner">
+          <h1 class="title">Pricing</h1>
+          <p class="derc-title">
+            Officia exercitation quis voluptate elit consequat nostrud
+          </p>
+          <div class="bt_times">
+            <button>Monthly</button>
+            <button>Yearly</button>
+          </div>
+
+          <div class="product_pricing">
+            <div class="product-item">
+              <div class="color-head"></div>
+              <div class="product-content">
+                <p class="produc-title">Personal</p>
+                <p class="produc-text">Perfect for side projects</p>
+
+                <div class="product-price">
+                  <p class="dola">$50</p>
+                  <p class="month">/month</p>
                 </div>
 
-                <div class="product_pricing">
-                    <div class="product-item">
-                        <div class="color-head"></div>
-                        <div class="product-content">
-                            <p class="produc-title">Personal</p>
-                            <p class="produc-text">Perfect for side projects</p>
-
-                            <div class="product-price">
-                                <p class="dola">$50</p>
-                                <p class="month">/month</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick"><i style="display: block; font-weight: 800; "
-                                        class="ti-check"></i></p>
-                                <p class="check-derc">Up to 5 users</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick"><i style="display: block; font-weight: 800; "
-                                        class="ti-check"></i></p>
-                                <p class="check-derc">Collaboration features</p>
-                                <p class="check-info"><i style="display: block; font-weight: 800; " class="ti-info"></i>
-                                </p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-close"><i style="display: block; font-weight: 800; "
-                                        class="ti-close"></i></p>
-                                <p class="check-derc">Smart analytics</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-close"><i style="display: block; font-weight: 800; "
-                                        class="ti-close"></i></p>
-                                <p class="check-derc">30-day free trial</p>
-                            </div>
-                            <button class="pricing-btn">Upgrade</button>
-                        </div>
-                    </div>
-                    <div class="product-item-main">
-                        <div class="color-head-main">Popular</div>
-                        <div class="product-content">
-                            <p class="produc-title-main">Startup</p>
-                            <p class="produc-text">Perfect for side projects</p>
-
-                            <div class="product-price">
-                                <p class="dola">$100</p>
-                                <p class="month">/team/month</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick"><i style="display: block; font-weight: 800; "
-                                        class="ti-check"></i></p>
-                                <p class="check-derc">Up to 50 users</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick"><i style="display: block; font-weight: 800; "
-                                        class="ti-check"></i></p>
-                                <p class="check-derc">Collaboration features</p>
-                                <p class="check-info"><i style="display: block; font-weight: 800; " class="ti-info"></i>
-                                </p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick"><i style="display: block; font-weight: 800; "
-                                        class="ti-check"></i></p>
-                                <p class="check-derc">Smart analytics</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick"><i style="display: block; font-weight: 800; "
-                                        class="ti-check"></i></p>
-                                <p class="check-derc">30-day free trial</p>
-                            </div>
-                            <button class="pricing-btn ">Upgrade</button>
-                        </div>
-                    </div>
-                    <div class="product-item">
-                        <div class="color-head" style="background-color: #A338F0;"></div>
-                        <div class="product-content">
-                            <p class="produc-title">Personal</p>
-                            <p class="produc-text">Perfect for side projects</p>
-
-                            <div class="product-price">
-                                <p class="dola">$150</p>
-                                <p class="month">/user/month</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick" style=" background-color: #A338F0;"><i
-                                        style="display: block; font-weight: 800; " class="ti-check"></i></p>
-                                <p class="check-derc">Unlimited users</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick" style="    background-color: #A338F0;"><i
-                                        style="display: block; font-weight: 800; " class="ti-check"></i></p>
-                                <p class="check-derc">Collaboration features</p>
-                                <p class="check-info"><i style="display: block; font-weight: 800; " class="ti-info"></i>
-                                </p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick" style="    background-color: #A338F0;"><i
-                                        style="display: block; font-weight: 800; " class="ti-check"></i></p>
-                                <p class="check-derc">Smart analytics</p>
-                            </div>
-
-                            <div class="pricing-check">
-                                <p class="check-tick" style="    background-color: #A338F0;"><i
-                                        style="display: block; font-weight: 800; " class="ti-check"></i></p>
-                                <p class="check-derc">30-day free trial</p>
-                            </div>
-                            <button class="pricing-btn">Upgrade</button>
-                        </div>
-                    </div>
+                <div class="pricing-check">
+                  <p class="check-tick">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Up to 5 users</p>
                 </div>
+
+                <div class="pricing-check">
+                  <p class="check-tick">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Collaboration features</p>
+                  <p class="check-info">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-info"
+                    ></i>
+                  </p>
+                </div>
+
+                <div class="pricing-check">
+                  <p class="check-close">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-close"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Smart analytics</p>
+                </div>
+
+                <div class="pricing-check">
+                  <p class="check-close">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-close"
+                    ></i>
+                  </p>
+                  <p class="check-derc">30-day free trial</p>
+                </div>
+                <button class="pricing-btn">Upgrade</button>
+              </div>
             </div>
+            <div class="product-item-main">
+              <div class="color-head-main">Popular</div>
+              <div class="product-content">
+                <p class="produc-title-main">Startup</p>
+                <p class="produc-text">Perfect for side projects</p>
 
-            <div class="content-main">
-                <h1 class="title-main">Compare plans</h1>
-                <div class="content-plans">
-                    <div class="plans-text">
-                        <h2 class="title-text">Key features</h2>
-                        <p class="text-dercation text-sub">Esse ipsum ullamco elit con</p>
-                        <p class="text-dercation">Enim id aute nisi sunt dolor</p>
-                        <p class="text-dercation">Laborum eiusmod duis proi</p>
-                        <p class="text-dercation">Tempor laboris aute nostru</p>
-
-                        <h2 class="title-text title-inc">Advanced support</h2>
-                        <p class="text-dercation text-sub">Esse ipsum ullamco elit con</p>
-                        <p class="text-dercation">Enim id aute nisi sunt dolor</p>
-                        <p class="text-dercation">Laborum eiusmod duis proi</p>
-                        <p class="text-dercation">Tempor laboris aute nostru</p>
-                    </div>
-
-                    <div class="plans-personal">
-                        <h2 class="title-plans">Personal</h2>
-                        <div class="plans-price ">
-                            <p class="dola">$50</p>
-                            <p class="month">/user/month</p>
-                        </div>
-                        <button class="plans-btn">Upgrade</button>
-
-                        <div class="check-icon icon-1">
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; " class="ti-close"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; " class="ti-close"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; " class="ti-close"></i>
-                            </p>
-                        </div>
-
-                        <div class="check-icon icon-2">
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; " class="ti-close"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; " class="ti-close"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; " class="ti-close"></i>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="plans-startup">
-                        <h2 class="title-plans title-color ">Startup</h2>
-                        <div class="plans-price ">
-                            <p class="dola">$100</p>
-                            <p class="month">/user/month</p>
-                        </div>
-                        <button class="plans-btn bt-color">Upgrade</button>
-
-                        <div class="check-icon icon-1">
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; color: #62666F;"
-                                    class="ti-close"></i></p>
-                        </div>
-
-                        <div class="check-icon icon-2">
-                            <p class="check-tick"><i style="display: block; font-weight: 800;" class="ti-check"></i></p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800;" class="ti-check"></i></p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800;" class="ti-check"></i></p>
-                            <p class="check-close"><i style="display: block; font-weight: 800; color: #62666F;"
-                                    class="ti-close"></i></p>
-                        </div>
-                    </div>
-
-                    <div class="plans-organization">
-                        <h2 class="title-plans">Organization</h2>
-                        <div class="plans-price ">
-                            <p class="dola">$150</p>
-                            <p class="month">/user/month</p>
-                        </div>
-                        <button class="plans-btn">Upgrade</button>
-
-                        <div class="check-icon icon-1">
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                        </div>
-
-                        <div class="check-icon icon-2">
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                            <p class="check-tick"><i style="display: block; font-weight: 800; " class="ti-check"></i>
-                            </p>
-                        </div>
-                    </div>
+                <div class="product-price">
+                  <p class="dola">$100</p>
+                  <p class="month">/team/month</p>
                 </div>
-            </div>
 
-            <div class="content-integrations">
-                <h1 class="title">
-                    Integrations
-                </h1>
+                <div class="pricing-check">
+                  <p class="check-tick">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Up to 50 users</p>
+                </div>
 
-                <div class="intergar-banner">
-                    <i class="ti-angle-left icon-left-inter"></i>
-                    <div class="intergar-item">
-                        <img src="./asset/img/trang3 Image 1 (4).png" alt="">
-                        <p class="intergar-text">
-                            Dolor minim sit anim fugiat excepteur ea. Ea do commodo est nostrud pariatur occaecat fugiat sin
-                        </p>
-                    </div>
-                    <div class="intergar-item">
-                        <img src="./asset/img/trang3 Image 1 (5).png" alt="">
-                        <p class="intergar-text">
-                            Velit fugiat velit veniam amet ex nostrud nostrud reprehenderit incididunt laborum anim eiusmod.
-                        </p>
-                    </div>
-                    <div class="intergar-item">
-                        <img src="./asset/img/trang3 Image 1 (6).png" alt="">
-                        <p class="intergar-text">
-                            Fugiat eiusmod veniam sit voluptate excepteur est magna minim eiusmod adipisicing officia
-                    </div>
-                    <i class="ti-angle-right icon-left-inter"></i>
+                <div class="pricing-check">
+                  <p class="check-tick">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Collaboration features</p>
+                  <p class="check-info">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-info"
+                    ></i>
+                  </p>
                 </div>
-            </div>
-            <div class="content-footer">
-                <div class="get-started">
-                    <div class="text-get">
-                        <h1 class="title_get">Having questions?</h1>
-                        <p>Do consectetur proident proident id eiusmod deserunt consequat pariatur ad ex velit do Lorem reprehenderit.</p>
-                        <input type="button" value="Contact sales">
-                    </div>
-                    <img src="./asset/img/trang3 Image 1 (7).png" alt="">
+
+                <div class="pricing-check">
+                  <p class="check-tick">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Smart analytics</p>
                 </div>
+
+                <div class="pricing-check">
+                  <p class="check-tick">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">30-day free trial</p>
+                </div>
+                <button class="pricing-btn">Upgrade</button>
+              </div>
             </div>
+            <div class="product-item">
+              <div class="color-head" style="background-color: #a338f0"></div>
+              <div class="product-content">
+                <p class="produc-title">Personal</p>
+                <p class="produc-text">Perfect for side projects</p>
+
+                <div class="product-price">
+                  <p class="dola">$150</p>
+                  <p class="month">/user/month</p>
+                </div>
+
+                <div class="pricing-check">
+                  <p class="check-tick" style="background-color: #a338f0">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Unlimited users</p>
+                </div>
+
+                <div class="pricing-check">
+                  <p class="check-tick" style="background-color: #a338f0">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Collaboration features</p>
+                  <p class="check-info">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-info"
+                    ></i>
+                  </p>
+                </div>
+
+                <div class="pricing-check">
+                  <p class="check-tick" style="background-color: #a338f0">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">Smart analytics</p>
+                </div>
+
+                <div class="pricing-check">
+                  <p class="check-tick" style="background-color: #a338f0">
+                    <i
+                      style="display: block; font-weight: 800"
+                      class="ti-check"
+                    ></i>
+                  </p>
+                  <p class="check-derc">30-day free trial</p>
+                </div>
+                <button class="pricing-btn">Upgrade</button>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <footer>
-            <div class="footer_main">
+        <div class="content-main">
+          <h1 class="title-main">Compare plans</h1>
+          <div class="content-plans">
+            <div class="plans-text">
+              <h2 class="title-text">Key features</h2>
+              <p class="text-dercation text-sub">Esse ipsum ullamco elit con</p>
+              <p class="text-dercation">Enim id aute nisi sunt dolor</p>
+              <p class="text-dercation">Laborum eiusmod duis proi</p>
+              <p class="text-dercation">Tempor laboris aute nostru</p>
 
-                <div class="footer_top">       
-                    <div class="about_footer">
-                        <ul>
-                            <li>
-                                <h2>Product</h2>
-                            </li>
-                            <li>Features</li>
-                            <li>Integrations</li>
-                            <li>Pricing plans</li>
-                            <li>Product updates</li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <h2>Resources</h2>
-                            </li>
-                            <li>Blog</li>
-                            <li>User guides</li>
-                            <li>Community</li>
-                            <li>Developers</li>
-                            <li>Legal</li>
-                            <li>Privacy</li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <h2>Company</h2>
-                            </li>
-                            <li>About</li>
-                            <li>
-                                <div class="sub_nav">
-                                    <p>Careers</p>
-                                    <p>Join us</p>                            
-                                </div>
-                            </li>
-                        </ul>
-        
-        
-                    </div>
-                    <div class="sub-email ">
-                        <h2>Subscribe to our newsletter</h2>
-                        <p>For product announcements and exclusive insights</p>
-                        <div class="button-email ">
-                            <div class="email-search">
-                                <button><i class="ti-email" style="padding-top: 2px;  display: block;"></i></button>
-                                <input type="email " name=" " id=" " placeholder="Input your email ">
-                            </div>
-                            <button class="sub" >Subscribe</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_bottom">
-                    <select name="" id="">
-                        <option value="English">English</option>
-                    </select>
-                    <div class="text-der">
-                        <p>&#169; 2022 Brand, Inc</p>
-                        <ul>
-                            <li>Privacy</li>
-                            <li>Terms</li>
-                            <li>Sitemap</li>
-                        </ul>
-                    </div>
-        
-                    <div class="img-footer">
-                        <img src="./asset/img/Twitter.png" alt="">
-                        <img src="./asset/img/Facebook.png" alt="">
-                        <img src="./asset/img/LinkedIn.png" alt="">
-                        <img src="./asset/img/YouTube.png" alt="">
-        
-                    </div>
-                </div>
+              <h2 class="title-text title-inc">Advanced support</h2>
+              <p class="text-dercation text-sub">Esse ipsum ullamco elit con</p>
+              <p class="text-dercation">Enim id aute nisi sunt dolor</p>
+              <p class="text-dercation">Laborum eiusmod duis proi</p>
+              <p class="text-dercation">Tempor laboris aute nostru</p>
             </div>
-        </footer>
+
+            <div class="plans-personal">
+              <h2 class="title-plans">Personal</h2>
+              <div class="plans-price">
+                <p class="dola">$50</p>
+                <p class="month">/user/month</p>
+              </div>
+              <button class="plans-btn">Upgrade</button>
+
+              <div class="check-icon icon-1">
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-close"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-close"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-close"
+                  ></i>
+                </p>
+              </div>
+
+              <div class="check-icon icon-2">
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-close"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-close"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-close"
+                  ></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="plans-startup">
+              <h2 class="title-plans title-color">Startup</h2>
+              <div class="plans-price">
+                <p class="dola">$100</p>
+                <p class="month">/user/month</p>
+              </div>
+              <button class="plans-btn bt-color">Upgrade</button>
+
+              <div class="check-icon icon-1">
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800; color: #62666f"
+                    class="ti-close"
+                  ></i>
+                </p>
+              </div>
+
+              <div class="check-icon icon-2">
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-close">
+                  <i
+                    style="display: block; font-weight: 800; color: #62666f"
+                    class="ti-close"
+                  ></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="plans-organization">
+              <h2 class="title-plans">Organization</h2>
+              <div class="plans-price">
+                <p class="dola">$150</p>
+                <p class="month">/user/month</p>
+              </div>
+              <button class="plans-btn">Upgrade</button>
+
+              <div class="check-icon icon-1">
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+              </div>
+
+              <div class="check-icon icon-2">
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+                <p class="check-tick">
+                  <i
+                    style="display: block; font-weight: 800"
+                    class="ti-check"
+                  ></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-integrations">
+          <h1 class="title">Integrations</h1>
+
+          <div class="intergar-banner">
+            <i class="ti-angle-left icon-left-inter"></i>
+            <div class="intergar-item">
+              <img src="./asset/img/trang3 Image 1 (4).png" alt="" />
+              <p class="intergar-text">
+                Dolor minim sit anim fugiat excepteur ea. Ea do commodo est
+                nostrud pariatur occaecat fugiat sin
+              </p>
+            </div>
+            <div class="intergar-item">
+              <img src="./asset/img/trang3 Image 1 (5).png" alt="" />
+              <p class="intergar-text">
+                Velit fugiat velit veniam amet ex nostrud nostrud reprehenderit
+                incididunt laborum anim eiusmod.
+              </p>
+            </div>
+            <div class="intergar-item">
+              <img src="./asset/img/trang3 Image 1 (6).png" alt="" />
+              <p class="intergar-text">
+                Fugiat eiusmod veniam sit voluptate excepteur est magna minim
+                eiusmod adipisicing officia
+              </p>
+            </div>
+
+            <i class="ti-angle-right icon-left-inter"></i>
+          </div>
+        </div>
+        <div class="content-footer">
+          <div class="get-started">
+            <div class="text-get">
+              <h1 class="title_get">Having questions?</h1>
+              <p>
+                Do consectetur proident proident id eiusmod deserunt consequat
+                pariatur ad ex velit do Lorem reprehenderit.
+              </p>
+              <input type="button" value="Contact sales" />
+            </div>
+            <img src="./asset/img/trang3 Image 1 (7).png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer_main">
+          <div class="footer_top">
+            <div class="about_footer">
+              <ul>
+                <li>
+                  <h2>Product</h2>
+                </li>
+                <li>Features</li>
+                <li>Integrations</li>
+                <li>Pricing plans</li>
+                <li>Product updates</li>
+              </ul>
+              <ul>
+                <li>
+                  <h2>Resources</h2>
+                </li>
+                <li>Blog</li>
+                <li>User guides</li>
+                <li>Community</li>
+                <li>Developers</li>
+                <li>Legal</li>
+                <li>Privacy</li>
+              </ul>
+              <ul>
+                <li>
+                  <h2>Company</h2>
+                </li>
+                <li>About</li>
+                <li>
+                  <div class="sub_nav">
+                    <p>Careers</p>
+                    <p>Join us</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="sub-email">
+              <h2>Subscribe to our newsletter</h2>
+              <p>For product announcements and exclusive insights</p>
+              <div class="button-email">
+                <div class="email-search">
+                  <button>
+                    <i
+                      class="ti-email"
+                      style="padding-top: 2px; display: block"
+                    ></i>
+                  </button>
+                  <input
+                    type="email "
+                    name=" "
+                    id=" "
+                    placeholder="Input your email "
+                  />
+                </div>
+                <button class="sub">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <select name="" id="">
+              <option value="English">English</option>
+            </select>
+            <div class="text-der">
+              <p>&#169; 2022 Brand, Inc</p>
+              <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+
+            <div class="img-footer">
+              <img src="./asset/img/Twitter.png" alt="" />
+              <img src="./asset/img/Facebook.png" alt="" />
+              <img src="./asset/img/LinkedIn.png" alt="" />
+              <img src="./asset/img/YouTube.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- modal -->
-    <div class="modal" id="frmdk" style="width: 760px; height: 665px; background-color: lightgray;">
-        <div class="modal-header ">
-            <h1 class="">Đăng ký</h1>
-            <button data-dismiss="modal" class="close">&times;</button>
-        </div>
-        <div class="modal-body">
-            <form action="">
-                <div class="form-group">
-                    <label for="">Họ tên</label>
-                    <input type="text" id="txtht" class="form-control">
-                    <p id="erht">(*)</p>
-                </div>
+    <div
+      class="modal"
+      id="frmdk"
+      style="
+        margin: 0px auto;
+        width: 760px;
+        height: 665px;
+        background-color: lightgray;
+      "
+    >
+      <div class="modal-header">
+        <h1 class="" style="text-align: center; width: 90%">Đăng ký</h1>
+        <button data-dismiss="modal" class="close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="" id="aaaa">
+          <div class="form-group">
+            <label for="">Họ tên</label>
+            <input type="text" id="txtht" class="form-control" />
+            <p id="erht">(*)</p>
+          </div>
 
-                <div class="form-group">
-                    <label for="">Email đăng nhập</label>
-                    <input type="email" id="txtemail" class="form-control">
-                    <p id="erem">(*)</p>
-                </div>
+          <div class="form-group">
+            <label for="">Email đăng nhập</label>
+            <input type="email" id="txtemail" class="form-control" />
+            <p id="erem">(*)</p>
+          </div>
 
-                <div class="form-group">
-                    <label for="">Mat khau</label>
-                    <input type="text" id="psmk" class="form-control">
-                    <p id="erps">(*)</p>
-                </div>
+          <div class="form-group">
+            <label for="">Mat khau</label>
+            <input type="text" id="psmk" class="form-control" />
+            <p id="erps">(*)</p>
+          </div>
 
-                <div class="form-group">
-                    <label for="">Ngày sinh</label>
-                    <input type="date" id="txtngay" class="form-control" placeholder="dd/mm/yyyy">
-                    <p id="erng">(*)</p>
-                </div>
-                <div class="row form-group">
-                    <label for="" class="col-2">Giới tính</label>
-                    <div class="col-10">
-                        <input type="radio" class="form-check-inline" name="gt" value="Nam">Nam
-                        <input type="radio" class="form-check-inline" name="gt" value="Nu">Nu
-                    </div>
-                </div>
+          <div class="form-group">
+            <label for="">Ngày sinh</label>
+            <input
+              type="date"
+              id="txtngay"
+              class="form-control"
+              placeholder="dd/mm/yyyy"
+            />
+            <p id="erng">(*)</p>
+          </div>
+          <div class="row form-group">
+            <label for="" class="col-2">Giới tính</label>
+            <div class="col-10">
+              <input
+                type="radio"
+                class="form-check-inline"
+                name="gt"
+                value="Nam"
+              />Nam
+              <input
+                type="radio"
+                class="form-check-inline"
+                name="gt"
+                value="Nu"
+              />Nu
+            </div>
+          </div>
 
-                <div class="form-group">
-                    <button class="btn" id="btn" type="button">Sign up</button>
-                </div>
-
-            </form>
-        </div>
+          <div class="form-group">
+            <button class="btn" type="submit"><a onclick="validateInput()">Sign up</a></button>
+          </div>
+        </form>
+      </div>
     </div>
 
-    <div class="modal" id="frmkdn" style="width: 760px; height: 400px; background-color: lightgray;">
-        <div class="modal-header">
-            <h1>Đăng nhập</h1>
-            <button data-dismiss="modal">&times;</button>
-        </div>
+    <div
+      class="modal"
+      id="frmkdn"
+      style="margin: auto ;width: 760px; height: 400px; background-color: lightgray"
+    >
+      <div class="modal-header">
+        <h1>Đăng nhập</h1>
+        <button data-dismiss="modal">&times;</button>
+      </div>
 
-        <div class="modal-body">
-            <form action="">
-                <div class="form-group">
-                    <div class="form-group">
-                        <label for="">Email đăng nhập</label>
-                        <input type="email" id="txtemail1" class="form-control">
-                        <p id="erem1">(*)</p>
-                    </div>
+      <div class="modal-body">
+        <form action="" id="aaaa">
+          <div class="form-group">
+            <div class="form-group">
+              <label for="">Email đăng nhập</label>
+              <input type="email" id="txtemail1" class="form-control" />
+              <p id="erem1">(*)</p>
+            </div>
 
-                    <div class="form-group">
-                        <label for="">Mat khau</label>
-                        <input type="text" id="psmk1" class="form-control">
-                        <p id="erps1">(*)</p>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn" id="btn" type="button">Sign in</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+            <div class="form-group">
+              <label for="">Mat khau</label>
+              <input type="text" id="psmk1" class="form-control" />
+              <p id="erps1">(*)</p>
+            </div>
+            <div class="form-group">
+              <button class="btn" id="btn" type="button">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
     <script src="./asset/js/main.js"></script>
-</body>
 
+  </body>
 </html>
