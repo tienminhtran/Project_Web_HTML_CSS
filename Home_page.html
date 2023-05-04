@@ -320,32 +320,32 @@
 
     <div class="modal" id="frmdk" style="width: 760px; height: 665px; background-color: lightgray;">
         <div class="modal-header ">
-            <h1 class="">Đăng ký</h1>
+            <h1 class="" style="text-align: center; width: 90%;">Đăng ký</h1>
             <button data-dismiss="modal" class="close">&times;</button>
         </div>
         <div class="modal-body">
-            <form action="">
+            <form action="" id="aaaa" >
                 <div class="form-group">
-                    <label for="">Họ tên</label>
-                    <input type="text" id="txtht" class="form-control">
+                    <label for="">Họ và tên</label>
+                    <input type="text" id="txtht" class="form-control" required>
                     <p id="erht">(*)</p>
                 </div>
 
                 <div class="form-group">
                     <label for="">Email đăng nhập</label>
-                    <input type="email" id="txtemail" class="form-control">
+                    <input type="email" id="txtemail" class="form-control"required>
                     <p id="erem">(*)</p>
                 </div>
 
                 <div class="form-group">
                     <label for="">Mat khau</label>
-                    <input type="text" id="psmk" class="form-control">
+                    <input type="text" id="psmk" class="form-control"required>
                     <p id="erps">(*)</p>
                 </div>
 
                 <div class="form-group">
                     <label for="">Ngày sinh</label>
-                    <input type="date" id="txtngay" class="form-control" placeholder="dd/mm/yyyy">
+                    <input type="date" id="txtngay" class="form-control" placeholder="dd/mm/yyyy" >
                     <p id="erng">(*)</p>
                 </div>
                 <div class="row form-group">
@@ -357,9 +357,8 @@
                 </div>
 
                 <div class="form-group">
-                    <button class="btn" id="btn" type="button">Sign up</button>
+                    <button class="btn" type="submit"><a onclick="validateInput()">Sign up</a></button>
                 </div>
-
             </form>
         </div>
     </div>
@@ -391,8 +390,8 @@
             </form>
         </div>
     </div>
-
     <script src="./asset/js/main.js"></script>
+
 </body>
 
 </html>
